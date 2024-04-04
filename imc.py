@@ -2,7 +2,7 @@ peso = float(input("Ingrese el peso en Kg: "))
 altura = float(input("Ingrese el peso en centímetros: "))
 
 imc = peso/((altura/100)**2)
-print(f"Su IMC es {imc}")
+print(f"Su IMC es {round(imc,2)}")
 
 if imc < 18.5:
     print("La clasificación OMS es Bajo Peso")
